@@ -100,7 +100,7 @@ def conduct_mod_powers(encrypted_character_list, d, n):
 # create prime numbers q and p
 def give_random_prime():
     while True:
-        random_num = random.randint(10000,1000000) # According to page 41 or textbook it says that the primes should be 100 digits or longer. But for the sake of the hw I'm doing these.
+        random_num = random.randint(30,1000000) # According to page 41 or textbook it says that the primes should be 100 digits or longer. But for the sake of the hw I'm doing these.
         if is_prime(random_num):
             return random_num
 
